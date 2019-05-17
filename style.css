@@ -89,34 +89,36 @@ main {
 	background-color: #01A0C6;
     border-bottom-left-radius: 15rem;
     border-top-left-radius: 15rem;
-    height: 40vh;
-    width: 87vw;
+    height: 43vh;
+    width: 85vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: relative;
+    top: 9rem;
 }
+
 .division-image{
-	width: 15rem;
-	height: 15rem; 
-	border-radius: 205px;
+	width: 35%;
+    height: 88%;
+    border-radius: 65%;
 }
 
 .subdivision-a {
 	color: #FFF;
-    width: 18rem;
-    display: flex;
+    height: 60%;
+    width: 55%;
     flex-direction: column;
-    height: 18rem;
-    justify-content: space-evenly;
-    width: 29rem;
 }
 
 .subdivision-text {
 	font-size: 1.40rem;
+    width: 23vw;
 }
 
 .subdivision-b {
 	font-size: 1.35rem;
+    width: 23vw;
 }
 
 .container-3 {
@@ -124,13 +126,13 @@ main {
     flex-flow: column wrap;
     justify-content: space-evenly;
     margin-left: 10rem;
-    margin-top: 6rem;
-    width: 100vw;
+    margin-top: 10rem;
+    width: 85vw;
     height: 70vh;
 }
 
 .content-3-div {
-    width: 100vw;
+    width: 85vw;
     display: flex;
     align-items: center;
 }
@@ -144,7 +146,7 @@ main {
     font-size: .875rem;
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 85vw;
     height: 50vh;
 
 }
@@ -185,7 +187,7 @@ main {
 }
 
 .subdivision {
-    width: 88vw;
+    width: 14vw;
     margin-left: 20rem;
     display: flex;
     flex-direction: column;
@@ -294,48 +296,44 @@ main {
 }
 
 .container-6 {
+    width: 100%;
+    height: 45%;
     background-color: #F9F9F9;
-    height: 63vh;
-    display: flex;
-    align-items: center;
 }
 
-.content-6-div{
+.content-6 {
+    height: 70%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 
 .content-6-division {
-    width: 45vw;
+    width: 35%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .division-6-title {
+    font-size: 2rem;
     color: #13007C;
-    font-size: 1.7rem;
-    width: 12vw;
-}
-
-.division-6-text {
-    font-size: .95rem;
-    width: 33vw;
 }
 
 .subdivision-6 {
-    display: flex;
-    width: 45vw;
-    justify-content: space-evenly;
-    flex-direction: column;
+    width: 45%;
+    height: 30%;
 }
 
 .title-box {
-    width: 45vw;
-    height: 10vh;
+    width: 101%;
+    font-size: .75rem;
 }
 
 .subdivision-form {
-    width: 20vw;
-    height: 20vw;
+    width: 30%;
 }
 
 .footer-container-2 {
