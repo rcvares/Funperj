@@ -7,7 +7,7 @@
 <body>
 	<header class="wrapper">
 		<nav class="wrapper-menu">
-			<figure>
+			<figure class="menu-image-box">
 				<img src="./assets/Logo-Funperj.svg" class="wrapper-logo" alt="Funperj Logo">
 			</figure>
 			<ul class="menu-list">
@@ -34,7 +34,7 @@
 				<img src="./assets/Paulo-Haus.png" class="division-image" alt="Presidente Paulo Haus Martins">
 				<div class="subdivision-a">
 					<div class="subdivision-a-wrapper">
-						<p class="subdivision-text">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+						<p class="subdivision-text-a">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
 						<div class="wrapper-a">
 							<p class="subdivision-b-text">Paulo Haus Martins</p>
 							<p class="subdivision-b-text">Presidente</p>
@@ -77,7 +77,7 @@
 			</div>
 			<img src="./assets/noun-strategy.svg" class="container-4-image" alt="Noun Strategy">
 		</section>
-		<section class="container-5">
+		<section class="container-5" id="Publicações">
 			<div class="title-holder">
 				<h1 class="container-5-title">Publicações</h1>
 			</div>
@@ -102,22 +102,20 @@
 		<section class="container-6">
 			<div class="content-6-div">
 				<div class="content-6-division">
-					<h1 class="division-6-title">Filie-se</h1>
+					<h1 class="division-6-title" id="Filie-se">Filie-se</h1>
 					<p class="division-6-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius nulla id lorem maximus fringilla. Integer odio magna, tempor eu commodo at, sagittis quis ex. Fusce et faucibus enim, sed tempor sem. In tincidunt nisi massa, nec hendrerit lectus tristique vitae. Duis convallis commodo purus nec porta.</p>
 				</div>
 				<div class="subdivision-6">
 					<div class="title-box">
-						<h1 class="subdivision-6-title">Informe seus dados e entraremos em contato.</h1>
+						<h1 class="subdivision-6-title" id="Contato">Informe seus dados e entraremos em contato.</h1>
 					</div>
 				<form class="subdivision-form">
-					<input type="name" name="Nome-Completo:" class="form-item">
-					<input type="E-mail" name="E-mail:" class="form-item">
-					<input type="Telefone" name="Telefone:" class="form-item">
-					<input type="Endereço" name="Endereço:" class="form-item">
-					<button name="enviar" class="form-button">
-						<strong>Enviar</strong>
-					</button>
-				</form>
+    				<input type="text" name="field1" placeholder="Nome Completo:" class="form-item"/>
+    				<input type="email" name="field2" placeholder="E-mail" class="form-item"/>
+   					<input type="text" name="field3" placeholder="Telefone:" class="form-item"/>
+    				<input type="text" name="field4" placeholder="Endereço:" class="form-item" />
+    				<input type="button" value="Enviar" class="form-button"/>
+  				</form>
 			</div>
 		</section>
 		<footer class="page-footer">
@@ -159,10 +157,10 @@
 						<div class="wrapper-5">
 							<nav class="wrapper-5-nav">
 								<ul class="footer-menu">
-									<a href="" class="footer-menu-link"><li class="footer-menu-item">Sobre</li></a>
-									<a href="" class="footer-menu-link"><li class="footer-menu-item">Publicações</li></a>
-									<a href="" class="footer-menu-link"><li class="footer-menu-item">Filie-se</li></a>
-									<a href="" class="footer-menu-link"><li class="footer-menu-item">Contato</li></a>
+									<a href="#Sobre" class="footer-menu-link"><li class="footer-menu-item">Sobre</li></a>
+									<a href="#Publicações" class="footer-menu-link"><li class="footer-menu-item">Publicações</li></a>
+									<a href="#Filie-se" class="footer-menu-link"><li class="footer-menu-item">Filie-se</li></a>
+									<a href="Contato" class="footer-menu-link"><li class="footer-menu-item">Contato</li></a>
 								</ul>
 							</nav>
 						</div>

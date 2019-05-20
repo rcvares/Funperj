@@ -11,11 +11,19 @@ main {
 }
 
 .wrapper-menu {
-	width: 100vw;
-	height: 10vh;
-	display: flex;
-	flex-direction: row;
+	width: 67%;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
+
+.menu-image-box {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
 .wrapper-logo {
 	width: 16vw;
 	height: 8vh;
@@ -33,8 +41,9 @@ main {
 
 .list-item {
 	list-style: none;
-	margin-left: 1rem;
-	font-size: 1.37rem;
+	margin-left: 3rem;
+	font-size: 1.9rem;
+    color: #000;
 }
 
 .container-1 {
@@ -42,6 +51,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    background-image: url(./assets/Fundo-home.svg);
+    background-repeat: no-repeat;
+    background-size: 123%;
+    background-position-y: -36%;
+    background-position-x: 52%;
 }
 
 .content-1-division {
@@ -61,19 +75,19 @@ main {
 .content-1-button {
 	background: none;
     border-style: none;
-    font-size: 1.62rem;
+    font-size: 2.85rem;
     color: #FFF;
     border-bottom-style: dotted;
     border-bottom-width: 3px;
 }
 
 .content-1-box {
-	width: 50vw;
+	width: 47%;
     height: 100vh;
     color: #FFF;
     display: flex;
-    flex-flow: column wrap;
     justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .box-title {
@@ -81,16 +95,16 @@ main {
 }
 
 .box-text {
-	font-size: 0.875rem;
-	width: 38vw;
+	font-size: 1.5rem;
+    width: 94%;
 }
 
 .content-2-division {
 	background-color: #01A0C6;
     border-bottom-left-radius: 15rem;
     border-top-left-radius: 15rem;
-    height: 43vh;
-    width: 85vw;
+    height: 55vh;
+    width: 88vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -99,21 +113,38 @@ main {
 }
 
 .division-image{
-	width: 35%;
-    height: 88%;
-    border-radius: 65%;
+	width: 36%;
+    height: 96%;
+    border-radius: 100%;
 }
 
 .subdivision-a {
 	color: #FFF;
-    height: 60%;
-    width: 55%;
-    flex-direction: column;
+    height: 62%;
+    width: 56%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.subdivision-text {
-	font-size: 1.40rem;
-    width: 23vw;
+.subdivision-a-wrapper {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.subdivision-text-a {
+	font-size: 1.9rem;
+    width: 100%;
+}
+
+.wrapper-a {
+    font-size: 1.6rem;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .subdivision-b {
@@ -136,10 +167,11 @@ main {
     display: flex;
     align-items: center;
 }
+
 .container-3-title {
 	color: #13007C;
     font-size: 2.25rem;
-    width: 30rem;
+    width: 30vw;
 }
 
 .content-3-division {
@@ -148,70 +180,69 @@ main {
     flex-direction: row;
     width: 85vw;
     height: 50vh;
-
 }
 
 .container-image-box{
 	background-color: #13007C;
-    width: 17rem;
-    height: 17rem;
+    width: 21%;
+    height: 34%;
     position: absolute;
 }
 
 .container-image {
-	width: 17rem;
+	width: 95%;
     position: relative;
-    left: .5rem;
-    bottom: .5rem;
+    left: .9rem;
+    bottom: .9rem;
 }
 
 .division-box {
-    width: 88vw;
+    width: 88%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 45vh;
+    height: 70%;
 }
 
 .division-container {
-    width: 15vw;
-    margin-left: 20rem;
+    width: 18%;
+    margin-left: 23rem;
 }
 
 .div-title {
-    font-size: 0.95rem; 
+    font-size: 1.7rem; 
 }
 
 .div-text{
-    font-size: 0.85rem;
+    font-size: 1.5rem;
 }
 
 .subdivision {
-    width: 14vw;
-    margin-left: 20rem;
+    width: 30%;
+    margin-left: 23rem;
     display: flex;
     flex-direction: column;
 }
 
 .subdivision-title {
-    font-size: 0.95rem;
+    font-size: 1.7rem;
 }
 
 .subdivision-text {
-    font-size: 0.85rem;
+    font-size: 1.5rem;
 }
 
 .subdivision-box {
-    width: 35vw;
-    margin-left: 20rem;
+    width: 30%;
+    margin-left: 23rem;
 }
 
 .subdivision-box-title {
-    font-size: 0.95rem;
+    font-size: 1.7rem;
 }
 
 .subdivision-box-text {
-    font-size: 0.85rem;
+    font-size: 1.5rem;
 }
 
 .container-4 {
@@ -228,16 +259,16 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 40vh
+    height: 40vh;
 }
 
 .container-4-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #FFF;
 }
 
 .container-4-text {
-    font-size: .95rem;
+    font-size: 1.5rem;
     color: #FFF;
     width: 35vw;
 }
@@ -251,14 +282,18 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    background-image: url(./assets/background.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 45%;
+    background-position-x: -186px;
 }
 
 .title-holder {
-    height: 15vh;
-    width: 50vw;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    width: 53%;
 }
 
 .container-5-title {
@@ -267,8 +302,8 @@ main {
 }
 
 .division-box-2 {
-    width: 90vw;
-    height: 60vh;
+    width: 88%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -276,7 +311,7 @@ main {
 }
 
 .subdivision-5 {
-    width: 45vw;
+    width: 38%;
     border-left-style: dotted;
     border-left-color: #FF8000;
     border-width: 0.4vw;
@@ -284,7 +319,7 @@ main {
 }
 
 .division-title {
-   font-size: 1.5rem;
+   font-size: 1.75rem;
 }
 
 .division-subtitle {
@@ -297,43 +332,73 @@ main {
 
 .container-6 {
     width: 100%;
-    height: 45%;
+    height: 70%;
     background-color: #F9F9F9;
 }
 
-.content-6 {
-    height: 70%;
+.content-6-div {
+    height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
 .content-6-division {
-    width: 35%;
-    height: 75%;
+    width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .division-6-title {
-    font-size: 2rem;
+    font-size: 2.7rem;
     color: #13007C;
+    width: 76%;
+}
+
+.division-6-text {
+    font-size: 1.5rem;
+    height: 60%;
+    width: 75%;
 }
 
 .subdivision-6 {
-    width: 45%;
-    height: 30%;
+    width: 37%;
+    height: 43%;
 }
 
 .title-box {
-    width: 101%;
-    font-size: .75rem;
+    width: 100%;
+    font-size: 1.12rem;
+    height: 27%;
 }
 
 .subdivision-form {
     width: 30%;
+    height: 80%;
+}
+
+.form-item {
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-top: .1px solid #000;
+    background: transparent;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    width: 36vw;
+}
+
+.form-button {
+    border: none;
+    background: none;
+    font-size: 1.95rem;
+    color: #01A0C6;
+    width: 310%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer-container-2 {
