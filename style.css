@@ -17,16 +17,32 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
 }
+@media(max-width: 768px){
+    .wrapper-menu {
+        width: 100vw;
+    }
+}
 
 .menu-image-box {
     display: flex;
     align-items: center;
     width: 15%;
 }
+@media(max-width: 768px){
+    .menu-image-box {
+        width: 25%;
+    }
+}
 
 .wrapper-logo {
 	width: 16vw;
 	height: 8vh;
+}
+@media(max-width: 768px){
+    .wrapper-logo {
+        width: 19vw;
+        height: 10vh;
+    }
 }
 
 .menu-list {
@@ -45,6 +61,12 @@ main {
 	font-size: 1.9rem;
     color: #000;
 }
+@media(max-width: 768px){
+    .list-item {
+        margin-left: .8rem;
+        font-size: 1.2rem;
+    }
+}
 
 .container-1 {
 	background-color: #13007C;
@@ -56,6 +78,13 @@ main {
     background-size: 123%;
     background-position-y: -36%;
     background-position-x: 52%;
+}
+@media(max-width: 768px){
+    .container-1 {
+    background-size: 163%;
+    background-position-x: 43%;
+    background-position-y: -54%;
+    } 
 }
 
 .content-1-division {
@@ -71,6 +100,11 @@ main {
     width: 40vw;
     color: #FFF;
 }
+@media(max-width: 768px){
+    .content-1-title {
+        font-size: 1.5rem;
+    }
+}
 
 .content-1-button {
 	background: none;
@@ -79,6 +113,11 @@ main {
     color: #FFF;
     border-bottom-style: dotted;
     border-bottom-width: 3px;
+}
+@media(max-width: 768px){
+    .content-1-button {
+        font-size: 1.4rem;
+    }
 }
 
 .content-1-box {
@@ -89,14 +128,29 @@ main {
     justify-content: space-evenly;
     flex-direction: column;
 }
+@media(max-width: 768px){
+    .content-1-box {
+        width: 50%;
+    }
+}
 
 .box-title {
 	font-size: 2.25rem;
+}
+@media(max-width: 768px){
+    .box-title {
+        font-size: 1.5rem;
+    }
 }
 
 .box-text {
 	font-size: 1.5rem;
     width: 94%;
+}
+@media(max-width: 768px){
+    .box-text {
+        font-size: 1rem;
+    }
 }
 
 .content-2-division {
@@ -112,10 +166,16 @@ main {
     top: 9rem;
 }
 
-.division-image{
+.division-image {
 	width: 36%;
     height: 96%;
     border-radius: 100%;
+}
+@media(max-width: 768px){
+    .division-image {
+    width: 35%;
+    height: 82%;
+    }
 }
 
 .subdivision-a {
@@ -125,6 +185,11 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
+@media(max-width: 768px){
+    .subdivision-a {
+        height: 27vh;
+    }
+}
 
 .subdivision-a-wrapper {
     width: 75%;
@@ -133,10 +198,21 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
 }
+@media(max-width: 768px){
+    .subdivision-a-wrapper {
+        height: 30vh;
+        width: 50vw
+    }
+}
 
 .subdivision-text-a {
 	font-size: 1.9rem;
     width: 100%;
+}
+@media(max-width: 768px){
+    .subdivision-text-a {
+        font-size: 1.3rem;
+    }
 }
 
 .wrapper-a {
@@ -145,6 +221,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+@media(max-width: 768px){
+    .wrapper-a {
+        font-size: 1.2rem;
+    }
 }
 
 .subdivision-b {
@@ -161,6 +242,14 @@ main {
     width: 85vw;
     height: 70vh;
 }
+@media(max-width: 768px){
+    .container-3 {
+        width: 100vw;
+        height: 75vh;
+        margin-left: 7rem;
+        margin-top: 10rem;
+    }
+}
 
 .content-3-div {
     width: 85vw;
@@ -172,6 +261,12 @@ main {
 	color: #13007C;
     font-size: 2.25rem;
     width: 30vw;
+}
+@media(max-width: 768px){
+    .container-3-title {
+        width: 46vw;
+        font-size: 2rem;
+    }
 }
 
 .content-3-division {
@@ -188,12 +283,25 @@ main {
     height: 34%;
     position: absolute;
 }
+@media(max-width: 768px){
+    .container-image-box {
+        width: 30vw;
+        height: 36vh;
+    }
+}
 
 .container-image {
 	width: 95%;
     position: relative;
-    left: .9rem;
-    bottom: .9rem;
+    left: 1.2rem;
+    bottom: .4rem;
+}
+@media(max-width: 768px){
+    .container-image {
+        width: 92%;
+        left: 1.2rem;
+        bottom: 1rem;
+    }
 }
 
 .division-box {
@@ -208,13 +316,31 @@ main {
     width: 18%;
     margin-left: 23rem;
 }
+@media(max-width: 768px){
+    .division-container {
+        margin-left: 20rem;
+        width: 20vw;
+    }
+}
 
 .div-title {
     font-size: 1.7rem; 
 }
+@media(max-width: 768px){
+    .div-title {
+        font-size: 1.2rem;
+    }
+}
 
 .div-text{
     font-size: 1.5rem;
+}
+@media(max-width: 768px){
+    .div-text {
+        width: 17vw;
+        font-size: 1rem;
+        color: #AFAFAF;
+    }
 }
 
 .subdivision {
@@ -223,26 +349,59 @@ main {
     display: flex;
     flex-direction: column;
 }
+@media(max-width: 768px){
+    .subdivision {
+        margin-left: 20rem;
+    }
+}
 
 .subdivision-title {
     font-size: 1.7rem;
 }
+@media(max-width: 768px){
+    .subdivision-title {
+        font-size: 1.2rem;
+    }
+}
 
 .subdivision-text {
     font-size: 1.5rem;
+}
+@media(max-width: 768px){
+    .subdivision-text {
+        font-size: 1rem;
+        color: #AFAFAF;
+    }
 }
 
 .subdivision-box {
     width: 30%;
     margin-left: 23rem;
 }
+@media(max-width: 768px){
+    .subdivision-box {
+        margin-left: 20rem;
+    }
+}
 
 .subdivision-box-title {
     font-size: 1.7rem;
 }
+@media(max-width: 768px){
+    .subdivision-box-title {
+        font-size: 1.2rem;
+    }
+}
 
 .subdivision-box-text {
     font-size: 1.5rem;
+}
+@media(max-width: 768px){
+    .subdivision-box-text {
+        font-size: 1rem;
+        width: 25vw;
+        color: #AFAFAF
+    }
 }
 
 .container-4 {
@@ -261,10 +420,20 @@ main {
     justify-content: space-evenly;
     height: 40vh;
 }
+@media(max-width: 678px){
+    .container-4-division {
+        height: 46vh;
+    }
+}
 
 .container-4-title {
     font-size: 2.5rem;
     color: #FFF;
+}
+@media(max-width: 768px){
+    .container-4-title {
+        font-size: 1.5rem;
+    }
 }
 
 .container-4-text {
@@ -272,9 +441,20 @@ main {
     color: #FFF;
     width: 35vw;
 }
+@media(max-width: 768px){
+    .container-4-text {
+        font-size: 1rem;
+        width: 43vw;
+    }
+}
 
 .container-4-image {
     width: 26vw;
+}
+@media(max-width: 768px){
+    .container-4-image {
+        width: 35vw;
+    }
 }
 
 .container-5 {
@@ -300,6 +480,11 @@ main {
     font-size: 2.3rem;
     color: #13007C;
 }
+@media(max-width: 768px){
+    .container-5-title {
+        font-size: 2rem;
+    }
+}
 
 .division-box-2 {
     width: 88%;
@@ -309,6 +494,12 @@ main {
     justify-content: space-evenly;
     align-items: flex-end;
 }
+@media(max-width: 768px){
+    .division-box-2 {
+        height: 77%;
+        width: 95%;
+    }
+}
 
 .subdivision-5 {
     width: 38%;
@@ -316,18 +507,40 @@ main {
     border-left-color: #FF8000;
     border-width: 0.4vw;
     padding-left: 2rem;
+    height: 23%;
+}
+@media(max-width: 768px){
+    .subdivision-5 {
+        width: 50%;
+    }
 }
 
 .division-title {
    font-size: 1.75rem;
 }
+@media(max-width: 768px){
+    .division-title {
+        font-size: 1.2rem;
+    }
+}
 
 .division-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    height: 29%;
+}
+@media(max-width: 768px){
+    .division-subtitle {
+        font-size: 1.2rem;
+    }
 }
 
 .division-text {
-    font-size: 1.2rem;
+    font-size: 1.37rem;
+}
+@media(max-width: 768px){
+    .division-text {
+        font-size: 0.8rem;
+    }
 }
 
 .container-6 {
@@ -357,22 +570,45 @@ main {
     color: #13007C;
     width: 76%;
 }
+@media(max-width: 768px){
+    .division-6-title {
+        font-size: 2rem;
+    }
+}
 
 .division-6-text {
     font-size: 1.5rem;
     height: 60%;
     width: 75%;
 }
+@media(max-width: 768px){
+    .division-6-text {
+        font-size: 1rem;
+        height: 55%;
+        width: 80%;
+    }
+}
 
 .subdivision-6 {
     width: 37%;
     height: 43%;
+}
+@media(max-width: 768px){
+    .subdivision-6 {
+        height: 37%;
+    }
 }
 
 .title-box {
     width: 100%;
     font-size: 1.12rem;
     height: 27%;
+}
+@media(max-width: 768px){
+    .title-box {
+        font-size: 0.6rem;
+        height: 20%;
+    }
 }
 
 .subdivision-form {
@@ -390,6 +626,14 @@ main {
     font-size: 1.2rem;
     width: 36vw;
 }
+@media(max-width: 768px){
+    .form-item {
+        font-size: .85rem;
+        line-height: 1.2rem;
+        padding: 6px;
+        width: 32vw;
+    }
+}
 
 .form-button {
     border: none;
@@ -399,6 +643,12 @@ main {
     width: 310%;
     display: flex;
     justify-content: flex-end;
+}
+@media(max-width: 768px){
+    .form-button {
+        font-size: 1.2rem;
+        width: 32vw;
+    }
 }
 
 .footer-container-2 {
@@ -439,11 +689,11 @@ main {
 }
 
 .wrapper-1-title {
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .wrapper-1-subtitle {
-    font-size: 0.97rem;
+    font-size: 1.25rem;
 }
 
 
@@ -452,15 +702,19 @@ main {
 }
 
 .wrapper-2-title {
-    font-size: 0.97rem;
+    font-size: 1.3rem;
 }
 
 .wrapper-3 {
-    width: 11vw;
+    width: 13vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: .80rem;
+    font-size: 1.3rem;
+}
+
+.wrapper-3-image {
+    width: 25%;
 }
 
 .wrapper-4 {
@@ -468,7 +722,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 0.85rem;
+    font-size: 1.3rem;
+}
+
+.wrapper-4-image {
+    width: 31%;
 }
 
 .wrapper-5 {
@@ -481,7 +739,6 @@ main {
 
 .footer-menu {
     list-style: none;
-    font-size: 1.25rem;
     display: flex;
     flex-direction: column;
     height: 20vh;
@@ -494,7 +751,7 @@ main {
 
 .footer-menu-item {
     color: #FFF;
-    font-size: 0.98rem;
+    font-size: 1.5rem;
 }
 
 .wrapper-6 {
