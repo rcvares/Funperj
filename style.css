@@ -11,7 +11,7 @@ main {
 }
 
 .wrapper-menu {
-	width: 67%;
+	width: 75%;
     height: 13vh;
     display: flex;
     flex-direction: row;
@@ -58,7 +58,7 @@ main {
 .list-item {
 	list-style: none;
 	margin-left: 3rem;
-	font-size: 1.9rem;
+	font-size: 1.5rem;
     color: #000;
 }
 @media(max-width: 768px){
@@ -75,9 +75,9 @@ main {
     align-items: flex-end;
     background-image: url(./assets/Fundo-home.svg);
     background-repeat: no-repeat;
-    background-size: 123%;
-    background-position-y: -36%;
-    background-position-x: 52%;
+    background-size: 174%;
+    background-position-y: -138%;
+    background-position-x: 42%;
 }
 @media(max-width: 768px){
     .container-1 {
@@ -85,6 +85,14 @@ main {
     background-position-x: 43%;
     background-position-y: -54%;
     } 
+}
+@media(max-width: 640px){
+    .container-1 {
+        width: 100vw;
+        background-size: 100vh;
+        background-position-y: -9%;
+        background-position-x: 34%;
+    }
 }
 
 .content-1-division {
@@ -94,9 +102,15 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
 }
+@media(max-width: 768px){
+    .content-1-division {
+        width: 61vw;
+        height: 100vh;
+    }
+}
 
 .content-1-title {
-	font-size: 2rem;
+	font-size: 1.8rem;
     width: 40vw;
     color: #FFF;
 }
@@ -105,11 +119,18 @@ main {
         font-size: 1.5rem;
     }
 }
+@media(max-width: 640px){
+    .content-1-title {
+        font-size: 1.8rem;
+        width: 54vw;
+        height: 7vh;
+    }
+}
 
 .content-1-button {
 	background: none;
     border-style: none;
-    font-size: 2.85rem;
+    font-size: 2.2rem;
     color: #FFF;
     border-bottom-style: dotted;
     border-bottom-width: 3px;
@@ -119,9 +140,14 @@ main {
         font-size: 1.4rem;
     }
 }
+@media(max-width: 640px){
+    .content-1-button {
+        font-size: 1.7rem;
+    }
+}
 
 .content-1-box {
-	width: 47%;
+	width: 50%;
     height: 100vh;
     color: #FFF;
     display: flex;
@@ -133,23 +159,41 @@ main {
         width: 50%;
     }
 }
+@media(max-width: 640px){
+    .content-1-box {
+        width: 85vw;
+        height: 100vh;
+    }
+}
 
 .box-title {
-	font-size: 2.25rem;
+	font-size: 2rem;
 }
 @media(max-width: 768px){
     .box-title {
         font-size: 1.5rem;
     }
 }
+@media(max-width: 640px){
+    .box-title {
+        font-size: 1.5rem;
+    }
+}
 
 .box-text {
-	font-size: 1.5rem;
-    width: 94%;
+	font-size: 1.2rem;
+    width: 88%;
 }
 @media(max-width: 768px){
     .box-text {
         font-size: 1rem;
+    }
+}
+@media(max-width: 640px){
+    .box-text {
+        font-size: 1rem;
+        width: 70vw;
+        height: 28vh;
     }
 }
 
@@ -167,8 +211,8 @@ main {
 }
 
 .division-image {
-	width: 36%;
-    height: 96%;
+	width: 35%;
+    height: 80%;
     border-radius: 100%;
 }
 @media(max-width: 768px){
@@ -192,7 +236,7 @@ main {
 }
 
 .subdivision-a-wrapper {
-    width: 75%;
+    width: 85%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -206,7 +250,7 @@ main {
 }
 
 .subdivision-text-a {
-	font-size: 1.9rem;
+	font-size: 1.7rem;
     width: 100%;
 }
 @media(max-width: 768px){
@@ -216,7 +260,7 @@ main {
 }
 
 .wrapper-a {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     height: 75%;
     display: flex;
     flex-direction: column;
@@ -239,8 +283,8 @@ main {
     justify-content: space-evenly;
     margin-left: 10rem;
     margin-top: 10rem;
-    width: 85vw;
-    height: 70vh;
+    width: 84vw;
+    height: 75vh;
 }
 @media(max-width: 768px){
     .container-3 {
@@ -252,15 +296,15 @@ main {
 }
 
 .content-3-div {
-    width: 85vw;
+    width: 83vw;
     display: flex;
     align-items: center;
 }
 
 .container-3-title {
 	color: #13007C;
-    font-size: 2.25rem;
-    width: 30vw;
+    font-size: 1.8rem;
+    width: 35vw;
 }
 @media(max-width: 768px){
     .container-3-title {
@@ -279,8 +323,8 @@ main {
 
 .container-image-box{
 	background-color: #13007C;
-    width: 21%;
-    height: 34%;
+    width: 25%;
+    height: 30%;
     position: absolute;
 }
 @media(max-width: 768px){
@@ -294,7 +338,7 @@ main {
 	width: 95%;
     position: relative;
     left: 1.2rem;
-    bottom: 1.4rem;
+    bottom: 1.5rem;
 }
 @media(max-width: 768px){
     .container-image {
@@ -305,15 +349,15 @@ main {
 }
 
 .division-box {
-    width: 88%;
+    width: 111vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 70%;
+    height: 40vh;
 }
 
 .division-container {
-    width: 18%;
+    width: 26vw;
     margin-left: 23rem;
 }
 @media(max-width: 768px){
@@ -334,6 +378,7 @@ main {
 
 .div-text{
     font-size: 1.5rem;
+    color: #AFAFAF;
 }
 @media(max-width: 768px){
     .div-text {
@@ -344,7 +389,7 @@ main {
 }
 
 .subdivision {
-    width: 30%;
+    width: 30vw;
     margin-left: 23rem;
     display: flex;
     flex-direction: column;
@@ -366,6 +411,7 @@ main {
 
 .subdivision-text {
     font-size: 1.5rem;
+    color: #AFAFAF;
 }
 @media(max-width: 768px){
     .subdivision-text {
@@ -375,7 +421,7 @@ main {
 }
 
 .subdivision-box {
-    width: 30%;
+    width: 30vw;
     margin-left: 23rem;
 }
 @media(max-width: 768px){
@@ -395,6 +441,7 @@ main {
 
 .subdivision-box-text {
     font-size: 1.5rem;
+    color: #AFAFAF;
 }
 @media(max-width: 768px){
     .subdivision-box-text {
@@ -419,6 +466,7 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     height: 40vh;
+    width: 40vw;
 }
 @media(max-width: 678px){
     .container-4-division {
@@ -437,9 +485,9 @@ main {
 }
 
 .container-4-text {
-    font-size: 1.5rem;
+    font-size: 1.34rem;
     color: #FFF;
-    width: 35vw;
+    width: 44vw;
 }
 @media(max-width: 768px){
     .container-4-text {
@@ -464,9 +512,14 @@ main {
     justify-content: space-evenly;
     background-image: url(./assets/background.svg);
     background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-size: 45%;
-    background-position-x: -186px;
+    background-position-y: 127px;
+    background-size: 61%;
+    background-position-x: -220px;
+}
+@media(max-width: 768px){
+    .container-5 {
+        background-position-y: 85px;
+    }
 }
 
 .title-holder {
@@ -487,8 +540,8 @@ main {
 }
 
 .division-box-2 {
-    width: 88%;
-    height: 60%;
+    width: 100%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -502,7 +555,7 @@ main {
 }
 
 .subdivision-5 {
-    width: 38%;
+    width: 51%;
     border-left-style: dotted;
     border-left-color: #FF8000;
     border-width: 0.4vw;
@@ -557,8 +610,8 @@ main {
 }
 
 .content-6-division {
-    width: 50%;
-    height: 100%;
+    width: 55%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -566,20 +619,21 @@ main {
 }
 
 .division-6-title {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     color: #13007C;
-    width: 76%;
+    width: 86%;
 }
 @media(max-width: 768px){
     .division-6-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        width: 80%;
     }
 }
 
 .division-6-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     height: 60%;
-    width: 75%;
+    width: 85%;
 }
 @media(max-width: 768px){
     .division-6-text {
@@ -590,8 +644,8 @@ main {
 }
 
 .subdivision-6 {
-    width: 37%;
-    height: 43%;
+    width: 47vw;
+    height: 22vh;
 }
 @media(max-width: 768px){
     .subdivision-6 {
@@ -601,8 +655,8 @@ main {
 
 .title-box {
     width: 100%;
-    font-size: 1.12rem;
-    height: 27%;
+    font-size: 1rem;
+    height: 7vh;
 }
 @media(max-width: 768px){
     .title-box {
@@ -612,8 +666,8 @@ main {
 }
 
 .subdivision-form {
-    width: 30%;
-    height: 80%;
+    width: 12vw;
+    height: 30vh;
 }
 
 .form-item {
@@ -622,8 +676,8 @@ main {
     border: none;
     border-top: .1px solid #000;
     background: transparent;
-    line-height: 3rem;
-    font-size: 1.2rem;
+    line-height: 2rem;
+    font-size: 1rem;
     width: 36vw;
 }
 @media(max-width: 768px){
@@ -719,11 +773,11 @@ main {
 }
 
 .wrapper-1 {
-    width: 45vh;
+    width: 40vh;
 }
 
 .wrapper-1-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 @media(max-width: 768px){
     .wrapper-1-title {
@@ -732,7 +786,7 @@ main {
 }
 
 .wrapper-1-subtitle {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 @media(max-width: 768px){
     .wrapper-1-subtitle {
@@ -745,7 +799,7 @@ main {
 }
 
 .wrapper-2-title {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 @media(max-width: 768px){
     .wrapper-2-title {
@@ -754,11 +808,11 @@ main {
 }
 
 .wrapper-3 {
-    width: 13vw;
+    width: 15vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 @media(max-width: 768px){
     .wrapper-3 {
@@ -777,11 +831,11 @@ main {
 }
 
 .wrapper-4 {
-    width: 8vw;
+    width: 11vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 @media(max-width: 768px){
     .wrapper-4 {
@@ -791,7 +845,7 @@ main {
 }
 
 .wrapper-4-image {
-    width: 31%;
+    width: 30%;
 }
 @media(max-width: 768px){
     .wrapper-4-image {
@@ -821,7 +875,7 @@ main {
 
 .footer-menu-item {
     color: #FFF;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
 }
 @media(max-width: 768px){
     .footer-menu-item {
@@ -849,7 +903,7 @@ main {
 }
 
 .wrapper-6-image {
-    width: 3vw;
+    width: 5vw;
     height: 5vh;
 }
 @media(max-width: 768px){
