@@ -11,7 +11,7 @@ main {
 }
 
 .wrapper-menu {
-	width: 80vw;
+	width: 65vw;
     height: 13vh;
     display: flex;
     flex-direction: row;
@@ -73,7 +73,9 @@ main {
 .list-item {
 	list-style: none;
 	margin-left: 3rem;
-	font-size: 1.9rem;
+	font-size: 1.3rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
     color: #000;
 }
 @media(max-width: 768px){
@@ -84,14 +86,15 @@ main {
 }
 
 .container-1 {
+    width: 100%;
 	background-color: #13007C;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     background-image: url(./assets/Fundo-home.svg);
     background-repeat: no-repeat;
-    background-position-y: -60vh;
-    background-position-x: -34vw;
+    background-position-y: -30vh;
+    background-position-x: -30vw;
 }
 @media(max-width: 768px){
     .container-1 {
@@ -122,8 +125,10 @@ main {
 }
 
 .content-1-title {
-	font-size: 2.1rem;
-    width: 40vw;
+	font-size: 1.5rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    width: 33vw;
     color: #FFF;
 }
 @media(max-width: 768px){
@@ -141,7 +146,9 @@ main {
 .content-1-button {
 	background: none;
     border-style: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
     color: #FFF;
     border-bottom-style: dotted;
     border-bottom-width: 3px;
@@ -153,7 +160,7 @@ main {
 }
 
 .content-1-box {
-	width: 60vw;
+	width: 55vw;
     height: 100vh;
     color: #FFF;
     display: flex;
@@ -173,7 +180,9 @@ main {
 }
 
 .box-title {
-	font-size: 2.25rem;
+	font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
 }
 @media(max-width: 768px){
     .box-title {
@@ -182,8 +191,10 @@ main {
 }
 
 .box-text {
-	font-size: 1.5rem;
-    width: 94%;
+	font-size: 1.2rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    width: 75%;
 }
 @media(max-width: 768px){
     .box-text {
@@ -205,9 +216,9 @@ main {
     width: 88vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
-    top: 9rem;
+    top: 6rem;
 }
 @media(max-width: 640px){
     .content-2-division {
@@ -221,9 +232,10 @@ main {
 }
 
 .division-image {
-	width: 30vw;
-    height: 44vh;
+	width: 28vw;
+    height: 50vh;
     border-radius: 100%;
+    padding: 1.3rem;
 }
 @media(max-width: 768px){
     .division-image {
@@ -276,8 +288,10 @@ main {
 }
 
 .subdivision-text-a {
-	font-size: 1.9rem;
-    width: 100%;
+	font-size: 1.45rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    width: 68%;
 }
 @media(max-width: 768px){
     .subdivision-text-a {
@@ -291,7 +305,9 @@ main {
 }
 
 .wrapper-a {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
     height: 75%;
     display: flex;
     flex-direction: column;
@@ -312,10 +328,8 @@ main {
 	display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
-    margin-left: 10rem;
-    margin-top: 10rem;
-    width: 85vw;
-    height: 70vh;
+    width: 100%;
+    height: 85vh;
 }
 @media(max-width: 768px){
     .container-3 {
@@ -333,7 +347,7 @@ main {
 }*/
 
 .content-3-div {
-    width: 85vw;
+    width: 40vw;
     display: flex;
     align-items: center;
 }
@@ -341,6 +355,8 @@ main {
 .container-3-title {
 	color: #13007C;
     font-size: 2.25rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
     width: 100%;
 }
 @media(max-width: 768px){
@@ -374,8 +390,8 @@ main {
 
 .container-image-box{
 	background-color: #13007C;
-    width: 20vw;
-    height: 25vh;
+    width: 18vw;
+    height: 30vh;
     position: absolute;
 }
 @media(max-width: 768px){
@@ -392,10 +408,10 @@ main {
 }*/
 
 .container-image {
-	width: 97%;
+	width: 96%;
     position: relative;
-    left: 1.2rem;
-    bottom: 1.3em;
+   left: .7rem;
+   bottom: 1.9rem;
 }
 /*@media(max-width: 768px){
     .container-image {
@@ -432,6 +448,8 @@ main {
 
 .div-title {
     font-size: 1.5rem; 
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
 }
 @media(max-width: 768px){
     .div-title {
@@ -442,6 +460,8 @@ main {
 .div-text{
     font-size: 1.2rem;
     color: #AFAFAF;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
 }
 @media(max-width: 768px){
     .div-text {
@@ -470,6 +490,8 @@ main {
 
 .subdivision-title {
     font-size: 1.5rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
 }
 @media(max-width: 768px){
     .subdivision-title {
@@ -479,6 +501,8 @@ main {
 
 .subdivision-text {
     font-size: 1.2rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
     color: #AFAFAF;
 }
 @media(max-width: 768px){
@@ -505,6 +529,8 @@ main {
 
 .subdivision-box-title {
     font-size: 1.5rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
 }
 @media(max-width: 768px){
     .subdivision-box-title {
@@ -514,6 +540,8 @@ main {
 
 .subdivision-box-text {
     font-size: 1.2rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
     color: #AFAFAF;
 }
 @media(max-width: 768px){
@@ -526,7 +554,7 @@ main {
 
 .container-4 {
     background-color: #01A0C6;
-    width: 100vw;
+    width: 100%;
     height: 60vh;
     display: flex;
     flex-direction: row;
@@ -549,6 +577,8 @@ main {
 
 .container-4-title {
     font-size: 2.2rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
     color: #FFF;
 }
 @media(max-width: 768px){
@@ -559,6 +589,8 @@ main {
 
 .container-4-text {
     font-size: 1.5rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
     color: #FFF;
     width: 100%;
 }
@@ -580,6 +612,7 @@ main {
 
 .container-5 {
     height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -599,6 +632,8 @@ main {
 
 .container-5-title {
     font-size: 2.3rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
     color: #13007C;
 }
 @media(max-width: 768px){
@@ -638,6 +673,8 @@ main {
 
 .division-title {
    font-size: 1.75rem;
+   font-family: 'Muli', sans-serif;
+   font-weight: 900;
 }
 @media(max-width: 768px){
     .division-title {
@@ -647,6 +684,8 @@ main {
 
 .division-subtitle {
     font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
     height: 29%;
 }
 @media(max-width: 768px){
@@ -657,6 +696,8 @@ main {
 
 .division-text {
     font-size: 1.37rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
 }
 @media(max-width: 768px){
     .division-text {
@@ -688,6 +729,8 @@ main {
 
 .division-6-title {
     font-size: 2.7rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
     color: #13007C;
     width: 76%;
 }
@@ -699,6 +742,8 @@ main {
 
 .division-6-text {
     font-size: 1.5rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
     height: 60%;
     width: 75%;
 }
@@ -723,6 +768,8 @@ main {
 .title-box {
     width: 100%;
     font-size: 1rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
     height: 27%;
 }
 @media(max-width: 768px){
@@ -745,6 +792,8 @@ main {
     background: transparent;
     line-height: 2rem;
     font-size: 1rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
     width: 36vw;
 }
 @media(max-width: 768px){
@@ -760,6 +809,8 @@ main {
     border: none;
     background: none;
     font-size: 1.5rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
     color: #01A0C6;
     width: 36vw;
     display: flex;
@@ -770,6 +821,10 @@ main {
         font-size: 1.2rem;
         width: 32vw;
     }
+}
+
+.page-footer {
+    width: 100%;
 }
 
 .footer-container-2 {
@@ -807,6 +862,8 @@ main {
 
 .wrapper-1 {
     width: 45vh;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
 }
 
 .wrapper-1-title {
@@ -834,6 +891,8 @@ main {
 
 .wrapper-2-title {
     font-size: 1.3rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
 }
 @media(max-width: 768px){
     .wrapper-2-title {
@@ -842,11 +901,13 @@ main {
 }
 
 .wrapper-3 {
-    width: 18vw;
+    width: 13vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.3rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
 }
 @media(max-width: 768px){
     .wrapper-3 {
@@ -859,11 +920,13 @@ main {
 }
 
 .wrapper-4 {
-    width: 12vw;
+    width: 9vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.3rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
 }
 @media(max-width: 768px){
     .wrapper-4 {
@@ -898,6 +961,8 @@ main {
 .footer-menu-item {
     color: #FFF;
     font-size: 1.3rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
 }
 @media(max-width: 768px){
     .footer-menu-item {
@@ -917,6 +982,8 @@ main {
     width: 10vw;
     height: 2vh;
     font-size: .75rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
 }
 @media(max-width: 768px){
     .wrapper-6-title {
@@ -940,6 +1007,8 @@ main {
 .footer-text-box {
     color: #13007C;
     width: 12vw;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
 }
 
 .footer-image-box {
@@ -952,4 +1021,3 @@ main {
     width: 9vw;
     height: 4vh;
 }
-
