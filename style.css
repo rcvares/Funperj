@@ -6,6 +6,24 @@
 	box-sizing: border-box;
 }
 
+.paulo-haus-image {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 100%;
+    margin: 2rem;
+    background-image: url(./assets/Paulo-Haus.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 640px){
+    .paulo-haus-image {
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
 .wrapper-menu {
 	width: 65vw;
     height: 10vh;
@@ -205,9 +223,8 @@
 
 .content-2-division {
 	background-color: #01A0C6;
-    border-bottom-left-radius: 15rem;
-    border-top-left-radius: 15rem;
-    height: 55vh;
+    border-bottom-left-radius: 17rem;
+    border-top-left-radius: 17rem;
     width: 88vw;
     display: flex;
     align-items: center;
@@ -226,28 +243,9 @@
     }
 }
 
-.division-image {
-	width: 28vw;
-    height: 50vh;
-    border-radius: 100%;
-    padding: 1.3rem;
-}
-@media(max-width: 768px){
-    .division-image {
-    width: 35%;
-    height: 82%;
-    }
-}
-@media(max-width: 640px){
-    .division-image {
-        width: 88%;
-        height: 54%;
-    }
-}
-
 .subdivision-a {
 	color: #FFF;
-    height: 40vh;
+    /* height: 40vh; */
     width: 50vw;
 }
 @media(max-width: 768px){
