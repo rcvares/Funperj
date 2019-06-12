@@ -974,10 +974,17 @@
 }
 
 .footer-1-division {
-    height: 15vh;
+    /* height: 15vh; */
+    min-height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+@media(max-width: 640px){
+    .footer-1-division {
+        flex-direction: column;
+    }
 }
 
 .footer-text-box {
@@ -988,10 +995,22 @@
     font-size: 1.25rem;
 }
 
+@media(max-width: 640px){
+    .footer-1-division {
+        align-self: flex-start;
+    }
+}
+
 .footer-image-box {
     width: 70%;
     display: flex;
     justify-content: space-evenly;
+}
+
+@media(max-width: 640px){
+    .footer-image-box {
+        flex-direction: column;
+    }
 }
 
 .footer-image {
