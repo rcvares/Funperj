@@ -138,7 +138,7 @@
 }
 
 .content-1-title {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
     font-family: 'Muli', sans-serif;
     font-weight: 900;
     width: 33vw;
@@ -568,8 +568,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 75%;
-    width: 47%
+    height: 65%;
+    width: 47%;
 }
 @media(max-width: 678px){
     .container-4-division {
@@ -578,7 +578,7 @@
 }
 
 .container-4-title {
-    font-size: 2.2rem;
+    font-size: 1.3rem;
     font-family: 'Muli', sans-serif;
     font-weight: 900;
     color: #FFF;
@@ -590,7 +590,7 @@
 }
 
 .container-4-text {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Muli', sans-serif;
     font-weight: 400;
     color: #FFF;
@@ -628,11 +628,11 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    width: 53%;
+    width: 49%;
 }
 
 .container-5-title {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     font-family: 'Muli', sans-serif;
     font-weight: 900;
     color: #13007C;
@@ -665,7 +665,7 @@
     border-width: 0.4vw;
     padding-left: 2rem;
     height: 23%;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 @media(max-width: 768px){
     .subdivision-5 {
@@ -674,9 +674,10 @@
 }
 
 .division-title {
-   font-size: 1.75rem;
+   font-size: 1.4rem;
    font-family: 'Muli', sans-serif;
    font-weight: 900;
+   width: 70%;
 }
 @media(max-width: 768px){
     .division-title {
@@ -685,7 +686,7 @@
 }
 
 .division-subtitle {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-family: 'Muli', sans-serif;
     font-weight: 200;
     height: 29%;
@@ -697,7 +698,7 @@
 }
 
 .division-text {
-    font-size: 1.37rem;
+    font-size: 1rem;
     font-family: 'Muli', sans-serif;
     font-weight: 200;
 }
@@ -729,7 +730,7 @@
 }
 
 .division-6-title {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-family: 'Muli', sans-serif;
     font-weight: 900;
     color: #13007C;
