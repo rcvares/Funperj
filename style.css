@@ -25,7 +25,7 @@
 }
 
 .wrapper-menu {
-	width: 65vw;
+	width: 57vw;
     height: 10vh;
     display: flex;
     flex-direction: row;
@@ -40,7 +40,7 @@
 .menu-image-box {
     display: flex;
     align-items: center;
-    width: 15%;
+    width: 14%;
 }
 @media(max-width: 768px){
     .menu-image-box {
@@ -54,8 +54,7 @@
 }
 
 .wrapper-logo {
-	width: 16vw;
-	height: 8vh;
+	height: 60%;
 }
 @media(max-width: 768px){
     .wrapper-logo {
@@ -106,8 +105,8 @@
     align-items: flex-end;
     background-image: url(./assets/Fundo-home.svg);
     background-repeat: no-repeat;
-    background-position-y: -30vh;
-    background-position-x: -30vw;
+    background-position-y: -55vh;
+    background-position-x: -25vw;
 }
 @media(max-width: 768px){
     .container-1 {
@@ -124,7 +123,7 @@
 }
 
 .content-1-division {
-	width: 60vw;
+	width: 55vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
